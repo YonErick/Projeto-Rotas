@@ -1,0 +1,9 @@
+.Home, .Band, .Cultura, .Globo, .Record, .Sbt, .Titulo, footer{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Home{
+    height: 90vh;
+    background-image: linear-gradient(to right, rgb(245, 0, 0), rgb(255, 0, 125), rgb(0, 38, 255));
+}
