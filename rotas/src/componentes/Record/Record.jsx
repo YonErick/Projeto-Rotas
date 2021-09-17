@@ -22,7 +22,7 @@ export default function Record() {
                 <Switch>
                     <Route exact path = "/home" render = {(props) => <Home/>}></Route>
                     <Route exact path = "/record/T2/falab" render = {(props) => <Falab/>}></Route>
-                    <Route exact path = "/record/T2/balancogeral" render = {(props) => <BalancoGeral/>}></Route>
+                    <Route exact path = "/record/balancogeral" render = {(props) => <BalancoGeral/>}></Route>
                     <Route exact path = "/record/T2/cidadea" render = {(props) => <CidadeA/>}></Route>
                     <Route exact path = "/record/T2/afaznd" render = {(props) => <AFaznd/>}></Route>
                     <Route exact path = "/record/T2/raulgil" render = {(props) => <RaulGil/>}></Route>
@@ -32,11 +32,11 @@ export default function Record() {
                 <nav className='navMenu'>
                     <ul>
                         <li> <Link to="/"> Voltar </Link> </li>
-                        <li> <Link to="/record/T2/falab"> Fala Brasil </Link> </li>
-                        <li> <Link to="/record/T2/balancogeral"> Balanço Geral </Link> </li>
-                        <li> <Link to="/record/T2/cidadea"> Cidade Alerta </Link> </li>
-                        <li> <Link to="/record/T2/afaznd"> A Fazendo </Link> </li>
-                        <li> <Link to="/record/T2/raulgil"> Raul Gil </Link> </li>
+                        <li> <Link to="#"> Fala Brasil </Link> </li>
+                        <li> <Link to="/record/balancogeral"> Balanço Geral </Link> </li>
+                        <li> <Link to="#"> Cidade Alerta </Link> </li>
+                        <li> <Link to="#"> A Fazendo </Link> </li>
+                        <li> <Link to="#"> Raul Gil </Link> </li>
                     </ul>
                 </nav>
             </div>

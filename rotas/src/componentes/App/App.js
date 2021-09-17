@@ -9,7 +9,6 @@ import Globo from '../Globo/Globo.jsx'
 import Record from '../Record/Record.jsx'
 import Sbt from '../Sbt/Sbt.jsx'
 
-//import { Link } from 'react-router-dom'
 import { Route, Switch} from 'react-router'
 
 function App() {
