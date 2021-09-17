@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 import Titulo from '/workspace/Projeto-Rotas/rotas/src/componentes/Titulo/Titulo.jsx'
 
 import Ninterior from './T3/Ninterior'
-import Nculinaria from './T3/Ninterior'
-import Ncapital from './T3/Ninterior'
-import Nbrasilia from './T3/Ninterior'
+import Nculinaria from './T3/Nculinaria'
+import Ncapital from './T3/Ncapital'
+import Nbrasilia from './T3/Nbrasilia'
 
 import Home from '/workspace/Projeto-Rotas/rotas/src/componentes/Home/Home.jsx'
 
@@ -17,7 +17,7 @@ import './BalancoGeral.css'
 export default function BalancoGeral() {
     return(
         <div>
-            <Titulo texto = 'BalancoGeral'/> 
+            <Titulo texto = 'Balanço Geral'/> 
             <div className = 'BalancoGeral'>
                 <Switch>
                     <Route exact path = "/home" render = {(props) => <Home/>}></Route>
@@ -33,7 +33,7 @@ export default function BalancoGeral() {
                     <ul>
                         <li> <Link to="/"> HOME </Link> </li>
                         <li> <Link to="/record"> VOLTAR </Link> </li>
-                        <li> <Link to="/record/ncapital"> NOTÍCIAS DA CAPITAL </Link></li>
+                        <li> <Link to="/record/balancogeral/ncapital"> NOTÍCIAS DA CAPITAL </Link></li>
                         <li> <Link to="#"> NOTÍCIAS DO INTERIOR </Link></li>
                         <li> <Link to="#"> NOTÍCIAS DE BRASÍLIA </Link></li>
                         <li> <Link to="#"> NOTÍCIAS DE CULINÁRIA </Link></li>

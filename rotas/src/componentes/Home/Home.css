@@ -1,9 +1,10 @@
-.Home, .Band, .Cultura, .Globo, .Record, .Sbt, .Titulo{
+.Band, .Cultura, .Globo, .Record, .Sbt, .Titulo{
     border: 1px solid black;
     text-align: center;
 }
 
 .Home{
-    height: 90vh;
+    height: 88.7vh;
     background-image: linear-gradient(to right, rgb(245, 0, 0), rgb(255, 0, 125), rgb(0, 38, 255));
+    text-align: center;
 }
