@@ -31,7 +31,7 @@ export default function Record() {
             <div className='menu'>
                 <nav className='navMenu'>
                     <ul>
-                        <li> <Link to="/"> HOME </Link> </li>
+                        <li> <Link to="/"> Voltar </Link> </li>
                         <li> <Link to="/record/T2/falab"> Fala Brasil </Link> </li>
                         <li> <Link to="/record/T2/balancogeral"> Balanço Geral </Link> </li>
                         <li> <Link to="/record/T2/cidadea"> Cidade Alerta </Link> </li>
